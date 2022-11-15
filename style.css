@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*=================== navbar-css========================= */
+.navbar {
+   
+height: 100vh;
+background-blend-mode: darken;   
+background-image: url('./img/nature\ 6.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.navbar h1{
+    font-size: 40px;
+    color: steelblue;
+}
+.navbar div  {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 30px;
+    align-items: center;
+   
+}
+.navbar ul{
+display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: steelblue;
+}
